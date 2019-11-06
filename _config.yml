@@ -58,7 +58,9 @@ collections:
     output: true
     permalink: /:collection/:path/
     order:
-      - photography.md
+      - nature.md
+      - portrait.md
+      - macro.md
 
 defaults:
   # _posts
