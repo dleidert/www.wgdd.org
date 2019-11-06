@@ -1,0 +1,8 @@
+---
+title: Fotografie
+layout: collection
+permalink: /photography/
+collection: photography
+entries_layout: grid
+classes: wide
+---

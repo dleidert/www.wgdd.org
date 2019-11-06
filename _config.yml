@@ -46,6 +46,20 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/daniel.leidert"
 
+collections:
+  debian:
+    output: true
+    permalink: /:collection/:path/
+    order:
+      - debian.md
+      - packages.md
+    lang: "en"
+  photography:
+    output: true
+    permalink: /:collection/:path/
+    order:
+      - photography.md
+
 defaults:
   # _posts
   - scope:
@@ -62,6 +76,23 @@ defaults:
   - scope:
       path: "_pages"
       type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _debian
+  - scope:
+      path: ""
+      type: debian
+    values:
+      layout: single
+      author_profile: true
+      lang: "en"
+      sidebar:
+        nav: "debian"
+  # other collections
+  - scope:
+      path: ""
+      type: photography
     values:
       layout: single
       author_profile: true
