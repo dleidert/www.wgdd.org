@@ -40,7 +40,7 @@ script:
   --check-html
   --http-status-ignore 999
   --check-img-http
-  --timeframe 4w
+  --timeframe 4w || true
 
 after_success:
 - find ./_site -type f
