@@ -39,7 +39,6 @@ script:
   --check-html
   --http-status-ignore 999
   --check-img-http
-#  --enforce-https
   --timeframe 4w
 
 after_success:
