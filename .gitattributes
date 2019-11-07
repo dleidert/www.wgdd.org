@@ -1,0 +1,4 @@
+*.html linguist-detectable=true
+*.md   linguist-detectable=true
+*.xml  linguist-detectable=true
+*.yml  linguist-detectable=true
