@@ -1,0 +1,47 @@
+language: ruby
+
+sudo: false
+
+cache:
+  apt: true
+  bundler: true
+  directories:
+  - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
+
+notifications:
+  email:
+    on_success: never
+
+branches:
+  only: master
+
+env:
+  global:
+  - JEKYLL_ENV=production
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+addons:
+  apt:
+    packages:
+    - libcurl4-openssl-dev # resolve SSL issue of htmlproofer
+    - locales-all
+
+rvm:
+- 2.5
+
+script: 
+- bundle exec jekyll build --trace
+# https://github.com/gjtorikian/html-proofer/wiki/Using-HTMLProofer-From-Ruby-and-Travis
+- bundle exec htmlproofer ./_site
+  --check-external-hash
+  --check-opengraph
+  --check-sri
+  --check-html
+  --check-img-http
+  --enforce-https
+  --timeframe 4w
+
+after_success:
+- find ./_site -type f
+
+# vim: set tw=79 ts=2 sw=2 ai si et:
