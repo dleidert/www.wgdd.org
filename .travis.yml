@@ -38,7 +38,7 @@ script:
   --check-sri
   --check-html
   --check-img-http
-  --enforce-https
+#  --enforce-https
   --timeframe 4w
 
 after_success:
