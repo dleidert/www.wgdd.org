@@ -32,6 +32,8 @@ rvm:
 
 script: 
 - bundle exec jekyll build --trace
+
+after_success:
 # https://github.com/gjtorikian/html-proofer/wiki/Using-HTMLProofer-From-Ruby-and-Travis
 - bundle exec htmlproofer ./_site
   --check-external-hash
@@ -42,7 +44,7 @@ script:
   --check-img-http
   --timeframe 4w || true
 
-after_success:
+after_script:
 - find ./_site -type f
 
 # vim: set tw=79 ts=2 sw=2 ai si et:
