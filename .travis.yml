@@ -35,14 +35,7 @@ script:
 
 after_success:
 # https://github.com/gjtorikian/html-proofer/wiki/Using-HTMLProofer-From-Ruby-and-Travis
-- bundle exec htmlproofer ./_site
-  --check-external-hash
-  --check-opengraph
-  --check-sri
-  --check-html
-  --http-status-ignore 999
-  --check-img-http
-  --timeframe 4w || true
+- bundle exec htmlproofer ./_site --check-external-hash --check-opengraph --check-sri --check-html --http-status-ignore 999 --check-img-http --timeframe 4w || true
 
 after_script:
 - find ./_site -type f
@@ -59,13 +52,9 @@ deploy:
   skip_cleanup: true
   script:
   #- ssh -vvv -i "$DEPLOY_SSH_KEY" -p "$DEPLOY_SSH_PORT" "$DEPLOY_SSH_USER"@"$DEPLOY_SSH_HOST"
-  - rsync
-    -avzc --progress --delete-after --delete-excluded
-    -e "ssh -i $DEPLOY_SSH_KEY -p $DEPLOY_SSH_PORT"
-    "$TRAVIS_BUILD_DIR/_site/"
-    "$DEPLOY_SSH_USER"@"$DEPLOY_SSH_HOST":"$DEPLOY_SSH_PATH"/
+  - rsync -avzcP --delete-after -e "ssh -o StrictHostKeyChecking=no -i $DEPLOY_SSH_KEY -p $DEPLOY_SSH_PORT" "$TRAVIS_BUILD_DIR/_site/" "$DEPLOY_SSH_USER"@"$DEPLOY_SSH_HOST":"$DEPLOY_SSH_PATH"/
   on:
     branch: master
     rvm: 2.5
 
-# vim: set tw=79 ts=2 sw=2 ai si et:
+# vim: set ts=2 sw=2 ai si et:
