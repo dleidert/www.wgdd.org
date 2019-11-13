@@ -21,9 +21,7 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 addons:
-  ssh_known_hosts:
-  - "$DEPLOY_SSH_HOST"
-  - "$DEPLOY_SSH_HOST":"$DEPLOY_SSH_PATH"
+  ssh_known_hosts: www.wgdd.de
   apt:
     packages:
     - libcurl4-openssl-dev # resolve SSL issue of htmlproofer
