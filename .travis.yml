@@ -47,4 +47,13 @@ after_success:
 after_script:
 - find ./_site -type f
 
+before_deploy:
+- openssl aes-256-cbc -K $encrypted_18c079ac24d9_key -iv $encrypted_18c079ac24d9_iv -in tools/deploy_rsa.enc -out "$DEPLOY_SSH_KEY" -d
+- eval "$(ssh-agent -s)"
+- chmod 600 "$DEPLOY_SSH_KEY"
+- ssh-add "$DEPLOY_SSH_KEY"
+
+deploy:
+- ls "$DEPLOY_SSH_KEY"
+
 # vim: set tw=79 ts=2 sw=2 ai si et:
