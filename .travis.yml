@@ -6,7 +6,7 @@ cache:
   apt: true
   bundler: true
   directories:
-  - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
+  - "$TRAVIS_BUILD_DIR/tmp/.htmlproofer"
 
 notifications:
   email:
@@ -30,7 +30,7 @@ rvm:
 - 2.5
 - 2.6
 
-script: 
+script:
 - bundle exec jekyll build --trace
 
 after_success:
