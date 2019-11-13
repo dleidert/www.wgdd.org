@@ -52,8 +52,6 @@ before_deploy:
 - eval "$(ssh-agent -s)"
 - chmod 600 "$DEPLOY_SSH_KEY"
 - ssh-add "$DEPLOY_SSH_KEY"
-
-deploy:
 - ls "$DEPLOY_SSH_KEY"
 
 # vim: set tw=79 ts=2 sw=2 ai si et:
