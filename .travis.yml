@@ -17,10 +17,13 @@ branches:
 
 env:
   global:
-  - JEKYLL_ENV=production
+  - JEKYLL_ENV="production"
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 addons:
+  ssh_known_hosts:
+  - "$DEPLOY_SSH_HOST"
+  - "$DEPLOY_SSH_HOST":"$DEPLOY_SSH_PATH"
   apt:
     packages:
     - libcurl4-openssl-dev # resolve SSL issue of htmlproofer
@@ -59,9 +62,9 @@ deploy:
   script:
   - rsync
     -avzc --progress --delete-after --delete-excluded
-    -e "ssh -i $DEPLOY_SSH_KEY -p $DEPLOY_SSH_PORT"
-    $TRAVIS_BUILD_DIR/_site/
-    "$DEPLOY_SSH_USER"@"$DEPLOY_SSH_HOST":"$DEPLOY_SSH_PATH"/
+    -e "ssh -vvv -i $DEPLOY_SSH_KEY -p $DEPLOY_SSH_PORT"
+    "$TRAVIS_BUILD_DIR/_site/"
+    "$DEPLOY_SSH_USER"@"$DEPLOY_SSH_HOST":"$DEPLOY_SSH_PATH/"
   on:
     branch: master
     rvm: 2.5
