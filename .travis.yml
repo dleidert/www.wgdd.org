@@ -21,9 +21,6 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 addons:
-  ssh_known_hosts:
-  - www3.wgdd.de
-  - www3.wgdd.de:2122
   apt:
     packages:
     - libcurl4-openssl-dev # resolve SSL issue of htmlproofer
@@ -51,6 +48,7 @@ after_script:
 - find ./_site -type f
 
 before_deploy:
+- ssh-keyscan -t $TRAVIS_SSH_KEY_TYPES -p "DEPLOY_SSH_PORT" -H "$DEPLOY_SSH_HOST" 2>&1 | tee -a ${TRAVIS_HOME}/.ssh/known_hosts
 - openssl aes-256-cbc -K $encrypted_18c079ac24d9_key -iv $encrypted_18c079ac24d9_iv -in tools/deploy_rsa.enc -out "$DEPLOY_SSH_KEY" -d
 - eval "$(ssh-agent -s)"
 - chmod 600 "$DEPLOY_SSH_KEY"
