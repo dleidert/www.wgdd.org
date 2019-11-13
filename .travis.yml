@@ -52,19 +52,18 @@ before_deploy:
 - eval "$(ssh-agent -s)"
 - chmod 600 "$DEPLOY_SSH_KEY"
 - ssh-add "$DEPLOY_SSH_KEY"
-- ls "$DEPLOY_SSH_KEY"
 
 deploy:
   provider: script
   skip_cleanup: true
   script:
-  - echo "Hi"
-  #- rsync
-  #  -avzc --progress --delete-after --delete-excluded
-  #  -e "ssh -i $DEPLOY_SSH_KEY -p $DEPLOY_SSH_PORT"
-  #  $TRAVIS_BUILD_DIR/_site/
-  #  "$DEPLOY_SSH_USER"@"$DEPLOY_SSH_HOST":"$DEPLOY_SSH_PATH"/
+  - rsync
+    -avzc --progress --delete-after --delete-excluded
+    -e "ssh -i $DEPLOY_SSH_KEY -p $DEPLOY_SSH_PORT"
+    $TRAVIS_BUILD_DIR/_site/
+    "$DEPLOY_SSH_USER"@"$DEPLOY_SSH_HOST":"$DEPLOY_SSH_PATH"/
   on:
     branch: master
+    rvm: 2.5
 
 # vim: set tw=79 ts=2 sw=2 ai si et:
