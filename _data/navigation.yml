@@ -15,9 +15,19 @@ main:
 debian:
   - title: "Debian"
     url: /debian/
+  - title: "Hardware"
+    url: /debian/hardware/
   - title: "Packages"
     url: /debian/packaging/
   - title: "Blog"
     url: /debian/blog/
+
+about:
+  - title: "Über"
+    url: /about/
+  - title: "Impressum"
+    url: /legal/
+  - title: "Datenschutz"
+    url: /privacy/
 
 # vim: set tw=79 ts=2 sw=2 ai si et:

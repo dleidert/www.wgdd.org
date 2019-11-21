@@ -1,6 +1,7 @@
 title: "[erfahrungen, meinungen, halluzinationen]"
 email: webmaster@wgdd.de
 description: >-
+  
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
@@ -61,6 +62,13 @@ collections:
       - nature.md
       - portrait.md
       - macro.md
+  about:
+    output: true
+    permalink: /:path/
+    order:
+      - about.md
+      - legal.md
+      - privacy.md
 
 defaults:
   # _posts
@@ -91,6 +99,16 @@ defaults:
       lang: "en"
       sidebar:
         nav: "debian"
+  # _debian
+  - scope:
+      path: ""
+      type: about
+    values:
+      layout: single
+      author_profile: false
+      lang: "de"
+      sidebar:
+        nav: "about"
   # other collections
   - scope:
       path: ""
