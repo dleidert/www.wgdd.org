@@ -8,6 +8,7 @@ description: >-
   ci.skip.
 category:
 - debian
+- planet-debian
 tags:
 - gitlab
 - salsa.d.o
