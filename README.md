@@ -1,4 +1,4 @@
-#
+# wgdd.de
 
 # Minimal Mistakes remote theme starter
 
