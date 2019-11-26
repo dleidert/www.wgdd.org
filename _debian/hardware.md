@@ -5,6 +5,7 @@ Description: >-
   Toshiba, Acer and Lenovo, but also Intel- and AMD-based based servers.
   Sometimes a few tweaks are required as described here.
 toc: true
+layout: wide
 ---
 
 I'm running several systems with different purposes but all running [Debian
