@@ -5,6 +5,7 @@ Description: >-
   Toshiba, Acer and Lenovo, but also Intel- and AMD-based based servers.
   Sometimes a few tweaks are required as described here.
 toc: true
+classes: wide
 ---
 
 I'm running several systems with different purposes but all running [Debian
@@ -110,4 +111,4 @@ donated to a school in Nepal.
 [toshset]: https://packages.qa.debian.org/toshset
 
 
-# vim: set tw=79 ts=2 sw=2 ai si et:
+<!-- vim: set tw=79 ts=2 sw=2 ai si et: -->
