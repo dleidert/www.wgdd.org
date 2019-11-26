@@ -110,4 +110,4 @@ donated to a school in Nepal.
 [toshset]: https://packages.qa.debian.org/toshset
 
 
-# vim: set tw=79 ts=2 sw=2 ai si et:
+<!-- vim: set tw=79 ts=2 sw=2 ai si et: -->
