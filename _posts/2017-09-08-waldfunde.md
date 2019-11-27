@@ -1,7 +1,6 @@
 ---
 lang: de
 title: Waldfunde
-date: '2017-09-08T00:46:00.001+02:00'
 category:
 - waldfunde
 tags:
@@ -9,14 +8,16 @@ tags:
 - wildbienen
 - heide
 - waldfunde
-last_modified_at: '2017-09-09T00:14:49.823+02:00'
 redirect_from:
 - /2017/09/waldfunde.html
+gallery:
+  - url: /assets/images/waldfunde/DSC_1894.JPG
+    image_path: /assets/images/waldfunde/DSC_1894.JPG
+    alt: "Raupe der Großen Birkenblattwespe"
+    title: "Raupe der Großen Birkenblattwespe (Cimbex femoratus, Dresdner Heide, Sachsen)"
 ---
 
-{% include figure image_path="/assets/images/waldfunde/DSC_1894.JPG" alt="Raupe
-der Großen Birkenblattwespe" caption="Raupe der Großen Birkenblattwespe
-(_Cimbex femoratus_, Dresdner Heide, Sachsen)" %}
+{% include gallery caption="Raupe der Großen Birkenblattwespe (*Cimbex femoratus*, Dresdner Heide, Sachsen)" layout="" %}
 
 Danke an [Walter Schön] für die Hilfe bei der Bestimmung.
 
