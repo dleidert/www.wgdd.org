@@ -12,11 +12,11 @@ redirect_from:
   - /2017/09/waldfunde-buchen-streckfu.html
 gallery:
   - url: /assets/images/waldfunde/Streckfuss_1.JPG
-    image_path: /assets/images/waldfunde/Streckfuss_1_500.JPG
+    image_path: /assets/images/waldfunde/thumbs/Streckfuss_1.JPG
     alt: "Raupe des Buchen-Streckfuß"
     title: "Raupe des Buchen-Streckfuß"
   - url: /assets/images/waldfunde/Streckfuss_2.JPG
-    image_path: /assets/images/waldfunde/Streckfuss_1_500.JPG
+    image_path: /assets/images/waldfunde/thumbs/Streckfuss_2.JPG
     alt: "Raupe des Buchen-Streckfuß"
     title: "Raupe des Buchen-Streckfuß"
 ---

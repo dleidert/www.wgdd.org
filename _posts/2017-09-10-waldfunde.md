@@ -2,25 +2,24 @@
 lang: de
 title: Waldfunde
 category:
-- waldfunde
+  - waldfunde
 tags:
-- pics
-- pilze
-- heide
-- waldfunde
+  - pics
+  - pilze
+  - heide
 redirect_from:
 - /2017/09/waldfunde_10.html
 gallery:
   - url: /assets/images/waldfunde/Impudicus-1.JPG
-    image_path: /assets/images/waldfunde/Impudicus-1.JPG
+    image_path: /assets/images/waldfunde/thumbs/Impudicus-1.JPG
     alt: "Hexenei"
     title: "Hexenei"
   - url: /assets/images/waldfunde/Impudicus-2.JPG
-    image_path: /assets/images/waldfunde/Impudicus-2.JPG
+    image_path: /assets/images/waldfunde/thumbs/Impudicus-2.JPG
     alt: "Zwei Hexeneier mit sichtbarer Gliba"
     title: "Zwei Hexeneier mit sichtbarer Gliba"
   - url: /assets/images/waldfunde/Impudicus-3.JPG
-    image_path: /assets/images/waldfunde/Impudicus-3.JPG
+    image_path: /assets/images/waldfunde/thumbs/Impudicus-3.JPG
     alt: "Stinkmorchel (Phallus impudicus)"
     title: "Stinkmorchel (Phallus impudicus)"
 ---
