@@ -28,9 +28,9 @@ z. B. an die zuständige Aufsichtsbehörde des Bundeslands Ihres Wohnsitzes oder
 an die für uns als verantwortliche Stelle zuständige Behörde.
 
 Eine Liste der Aufsichtsbehörden (für den nichtöffentlichen Bereich) mit
-Anschrift finden Sie unter:
-[https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html]{:
-target="\_blank" rel="nofollow noopener"}.
+Anschrift finden Sie unter: [bfdi]{: target="\_blank" rel="nofollow noopener"}.
+
+[bfdi]: https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html
 
 ## Erfassung allgemeiner Informationen beim Besuch unserer Website
 
@@ -120,12 +120,13 @@ unserer Kommentarfunktion gewähren.
 **Art und Zweck der Verarbeitung:**
 
 Um unsere Inhalte browserübergreifend korrekt und grafisch ansprechend
-darzustellen, verwenden wir auf dieser Website „Google Web Fonts“ der Google
-LLC (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA; nachfolgend
-„Google“) zur Darstellung von Schriften.
+darzustellen, verwenden wir auf dieser Website <q>Google Web Fonts</q> der
+Google LLC (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA;
+nachfolgend <q>Google</q>) zur Darstellung von Schriften.
 
 Die Datenschutzrichtlinie des Bibliothekbetreibers Google finden Sie hier:
-[https://www.google.com/policies/privacy/]
+[Datenschutzerklärung des Anbieters]
+
 
 **Rechtsgrundlage:**
 
@@ -145,19 +146,19 @@ der Betreiber in diesem Fall Google Daten erhebt.
 Wir erheben keine personenbezogenen Daten, durch die Einbindung von Google Webfonts.
 
 Weitere Informationen zu Google Web Fonts finden Sie unter
-[https://developers.google.com/fonts/faq] und in der Datenschutzerklärung von
-Google: [https://www.google.com/policies/privacy/].
+<https://developers.google.com/fonts/faq> und in der Datenschutzerklärung von
+Google: <https://www.google.com/policies/privacy/>.
 
 **Drittlandtransfer:**
 
-Google verarbeitet Ihre Daten in den USA und hat sich dem EU\_US Privacy Shield
-unterworfen [https://www.privacyshield.gov/EU-US-Framework].
+Google verarbeitet Ihre Daten in den USA und hat sich dem [EU_US Privacy Shield]
+unterworfen.
 
 **Bereitstellung vorgeschrieben oder erforderlich:**
 
 Die Bereitstellung der personenbezogenen Daten ist weder gesetzlich, noch
 vertraglich vorgeschrieben. Allerdings kann ggfs. die korrekte Darstellung der
-Inhalte durch Standardschriften nicht möglich sein.</p>
+Inhalte durch Standardschriften nicht möglich sein.
 
 **Widerruf der Einwilligung:**
 
@@ -173,13 +174,13 @@ Funktionseinschränkungen auf der Website kommen kann.
 
 Auf dieser Webseite nutzen wir das Angebot von Google Maps. Google Maps wird
 von Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
-(nachfolgend <q>Google</p>) betrieben. Dadurch können wir Ihnen interaktive
+(nachfolgend <q>Google</q>) betrieben. Dadurch können wir Ihnen interaktive
 Karten direkt in der Webseite anzeigen und ermöglichen Ihnen die komfortable
 Nutzung der Karten-Funktion.
 
 Nähere Informationen über die Datenverarbeitung durch Google können Sie [den
-Google-Datenschutzhinweisen](http://www.google.com/privacypolicy.html)
-entnehmen. Dort können Sie im Datenschutzcenter auch Ihre persönlichen
+Google-Datenschutzhinweisen][Datenschutzerklärung des Anbieters] entnehmen.
+Dort können Sie im Datenschutzcenter auch Ihre persönlichen
 Datenschutz-Einstellungen verändern.
 
 Ausführliche Anleitungen zur Verwaltung der eigenen Daten im Zusammenhang mit
@@ -215,8 +216,8 @@ Maps.
 
 **Drittlandtransfer:**
 
-Google verarbeitet Ihre Daten in den USA und hat sich dem EU\_US Privacy Shield
-unterworfen [https://www.privacyshield.gov/EU-US-Framework].
+Google verarbeitet Ihre Daten in den USA und hat sich dem [EU_US Privacy Shield]
+unterworfen.
 
 **Widerruf der Einwilligung:**
 
@@ -237,12 +238,12 @@ zu Funktionseinschränkungen auf der Website kommen.
 
 Auf einigen unserer Webseiten betten wir YouTube-Videos ein. Betreiber der
 entsprechenden Plugins ist die YouTube, LLC, 901 Cherry Ave., San Bruno, CA
-94066, USA (nachfolgend „YouTube“). Wenn Sie eine Seite mit dem YouTube-Plugin
-besuchen, wird eine Verbindung zu Servern von YouTube hergestellt. Dabei wird
-YouTube mitgeteilt, welche Seiten Sie besuchen. Wenn Sie in Ihrem
-YouTube-Account eingeloggt sind, kann YouTube Ihr Surfverhalten Ihnen
-persönlich zuzuordnen. Dies verhindern Sie, indem Sie sich vorher aus Ihrem
-YouTube-Account ausloggen.
+94066, USA (nachfolgend <q>YouTube</q>). Wenn Sie eine Seite mit dem
+YouTube-Plugin besuchen, wird eine Verbindung zu Servern von YouTube
+hergestellt. Dabei wird YouTube mitgeteilt, welche Seiten Sie besuchen. Wenn
+Sie in Ihrem YouTube-Account eingeloggt sind, kann YouTube Ihr Surfverhalten
+Ihnen persönlich zuzuordnen. Dies verhindern Sie, indem Sie sich vorher aus
+Ihrem YouTube-Account ausloggen.
 
 Wird ein YouTube-Video gestartet, setzt der Anbieter Cookies ein, die Hinweise
 über das Nutzerverhalten sammeln.
@@ -251,9 +252,8 @@ Weitere Informationen zu Zweck und Umfang der Datenerhebung und ihrer
 Verarbeitung durch YouTube erhalten Sie in den Datenschutzerklärungen des
 Anbieters, Dort erhalten Sie auch weitere Informationen zu Ihren
 diesbezüglichen Rechten und Einstellungsmöglichkeiten zum Schutze Ihrer
-Privatsphäre ([https://policies.google.com/privacy]). Google verarbeitet Ihre
-Daten in den USA und hat sich dem EU-US Privacy Shield unterworfen
-[https://www.privacyshield.gov/EU-US-Framework]
+Privatsphäre ([Datenschutzerklärung des Anbieters]). Google verarbeitet Ihre
+Daten in den USA und hat sich dem [EU_US Privacy Shield] unterworfen.
 
 **Rechtsgrundlage:**
 
@@ -270,16 +270,15 @@ Wer das Speichern von Cookies für das Google-Ad-Programm deaktiviert hat, wird
 auch beim Anschauen von YouTube-Videos mit keinen solchen Cookies rechnen
 müssen. YouTube legt aber auch in anderen Cookies nicht-personenbezogene
 Nutzungsinformationen ab. Möchten Sie dies verhindern, so müssen Sie das
-Speichern von Cookies im Browser blockieren.</p>
+Speichern von Cookies im Browser blockieren.
 
-Weitere Informationen zum Datenschutz bei „YouTube“ finden Sie in der
-Datenschutzerklärung des Anbieters unter:
-[https://www.google.de/intl/de/policies/privacy/]
+Weitere Informationen zum Datenschutz bei <q>YouTube</q> finden Sie in der
+[Datenschutzerklärung des Anbieters].
 
 **Drittlandtransfer:**
 
-Google verarbeitet Ihre Daten in den USA und hat sich dem EU\_US Privacy Shield
-unterworfen [https://www.privacyshield.gov/EU-US-Framework].
+Google verarbeitet Ihre Daten in den USA und hat sich dem [EU_US Privacy Shield]
+unterworfen.
 
 **Bereitstellung vorgeschrieben oder erforderlich:**
 
@@ -310,6 +309,9 @@ unserer Organisation:
 *Die Datenschutzerklärung wurde mithilfe der activeMind AG erstellt, den
 Experten für [externe Datenschutzbeauftragte]{: target="_blank" rel="noopener"}
 (Version #2019-04-10).*
+
+[Datenschutzerklärung des Anbieters]: https://www.google.com/policies/privacy/
+[EU_US Privacy Shield]: https://www.privacyshield.gov/EU-US-Framework
 
 [externe Datenschutzbeauftragte]: https://www.activemind.de/datenschutz/datenschutzhinweis-generator/
 
