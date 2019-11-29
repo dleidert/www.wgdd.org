@@ -1,20 +1,19 @@
 ---
 lang: en
 title: Skipping the CI build job on salsa.debian.org
-author: dleidert
 description: >-
   To skip CI build jobs on the gitlab-powered platform salsa.debian.org you can
   either use a special commit message note or the git command line push option
   ci.skip.
 category:
-- debian
-- planet-debian
+  - debian
+  - planet-debian
 tags:
-- gitlab
-- salsa.d.o
-- packaging
-- ci
-- git
+  - gitlab
+  - salsa.d.o
+  - packaging
+  - ci
+  - git
 ---
 
 The salsa-ci team offers [pre-written CI jobs][salsa-ci] to build and test your
