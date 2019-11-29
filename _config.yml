@@ -24,19 +24,15 @@ include:
   - _pages
 
 author:
-  name   : "Daniel Leidert"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Chemiker, Programmierer, Debian-Entwickler, Hobby-Fotograf und tätig im Bereich Umweltschutz"
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.wgdd.de"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/dleidert"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/daniel.leidert"
+  name: "Daniel Leidert"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "Chemiker, Programmierer, Debian-Entwickler, Hobby-Fotograf und tätig im Bereich Umweltschutz"
+  email: "daniel@wgdd.de"
+  github: "dleidert"
+  instagram: "daniel.leidert"
+  uri: "https://www.wgdd.de"
+  xing: "Daniel_Leidert"
+  youtube: "https://www.youtube.com/channel/UCcByb2fCTx7B8QwZBdGxDgA"
 
 footer:
   links:
