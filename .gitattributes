@@ -2,6 +2,7 @@
 *.md   linguist-detectable=true
 *.xml  linguist-detectable=true
 *.yml  linguist-detectable=true
+tools/*.wgdd.de.xml linguist-generated=true
 
 .gitattributes	export-ignore
 .gitignore	export-ignore
