@@ -4,6 +4,8 @@ toc: true
 toc_sticky: true
 ---
 
+Stand: {{ page.date  |  | date: "%d.%m.%Y" }}
+
 Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der
 EU-Datenschutzgrundverordnung (DSGVO), ist der [Betreiber] der Website.
 
@@ -11,7 +13,7 @@ EU-Datenschutzgrundverordnung (DSGVO), ist der [Betreiber] der Website.
 
 ## Ihre Betroffenenrechte
 
-Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten können Sie jederzeit folgende Rechte ausüben:
+Unter den angegebenen Kontaktdaten können Sie jederzeit folgende Rechte ausüben:
 
 * Auskunft über Ihre bei uns gespeicherten Daten und deren Verarbeitung (Art. 15 DSGVO),
 * Berichtigung unrichtiger personenbezogener Daten (Art. 16 DSGVO),
@@ -36,22 +38,24 @@ Anschrift finden Sie unter: [bfdi]{: target="\_blank" rel="nofollow noopener"}.
 
 **Art und Zweck der Verarbeitung:**
 
-Wenn Sie auf unsere Website zugreifen, d.h., wenn Sie sich nicht registrieren
-oder anderweitig Informationen übermitteln, werden automatisch Informationen
-allgemeiner Natur erfasst. Diese Informationen (Server-Logfiles) beinhalten
-etwa die Art des Webbrowsers, das verwendete Betriebssystem, den Domainnamen
-Ihres Internet-Service-Providers, Ihre IP-Adresse und ähnliches.
+Wenn Sie auf unsere Website zugreifen, d.h., auch wenn Sie sich nicht
+registrieren oder anderweitig Informationen übermitteln, werden automatisch
+Informationen allgemeiner Natur erfasst und in sogenannten Server-Log-Dateien
+gespeichert. Diese Informationen beinhalten etwa die Art des Webbrowsers, das
+verwendete Betriebssystem, den Domainnamen Ihres Internet-Service-Providers,
+die Referrer-Webseite, Ihre IP-Adresse und ähnliches.
 
 Sie werden insbesondere zu folgenden Zwecken verarbeitet:
 
 * Sicherstellung eines problemlosen Verbindungsaufbaus der Website,
 * Sicherstellung einer reibungslosen Nutzung unserer Website,
-* Auswertung der Systemsicherheit und -stabilität sowie
+* Auswertung und Sicherstellung der Systemsicherheit und -stabilität sowie
 * zu weiteren administrativen Zwecken.
 
 Wir verwenden Ihre Daten nicht, um Rückschlüsse auf Ihre Person zu ziehen.
-Informationen dieser Art werden von uns ggfs. statistisch ausgewertet, um
-unseren Internetauftritt und die dahinterstehende Technik zu optimieren.
+Informationen dieser Art können von uns aber ggfs. statistisch ausgewertet
+werden, um unseren Internetauftritt und die dahinterstehende Technik zu
+optimieren.
 
 **Rechtsgrundlage:**
 
@@ -61,14 +65,14 @@ unserer Website.
 
 **Empfänger:**
 
-Empfänger der Daten sind ggf. technische Dienstleister, die für den Betrieb und
-die Wartung unserer Webseite als Auftragsverarbeiter tätig werden.
+Empfänger der Daten sind der Betreiber der Webseite und ggf. technische
+Dienstleister, die für den Betrieb und die Wartung der Webseite bzw. des
+Servers als Auftragsverarbeiter tätig werden.
 
 **Speicherdauer:**
 
 Die Daten werden gelöscht, sobald diese für den Zweck der Erhebung nicht mehr
-erforderlich sind. Dies ist für die Daten, die der Bereitstellung der Webseite
-dienen, grundsätzlich der Fall, wenn die jeweilige Sitzung beendet ist.
+erforderlich sind.
 
 **Bereitstellung vorgeschrieben oder erforderlich:**
 
@@ -78,76 +82,72 @@ Dienst und die Funktionsfähigkeit unserer Website nicht gewährleistet. Zudem
 können einzelne Dienste und Services nicht verfügbar oder eingeschränkt sein.
 Aus diesem Grund ist ein Widerspruch ausgeschlossen.
 
-## Kommentarfunktion
+## Verwendung von Google Adsense
 
 **Art und Zweck der Verarbeitung:**
 
-Wenn Nutzer Kommentare auf unserer Website hinterlassen, werden neben diesen
-Angaben auch der Zeitpunkt ihrer Erstellung und der zuvor durch den
-Websitebesucher gewählte Nutzername gespeichert. Dies dient unserer Sicherheit,
-da wir für widerrechtliche Inhalte auf unserer Webseite belangt werden können,
-auch wenn diese durch Benutzer erstellt wurden.
+Diese Website verwendet Google AdSense. Es handelt sich hierbei um einen Dienst
+der Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+(nachfolgend <q>Google</q>), zur Einbindung von Werbeanzeigen.
+
+Google AdSense verwendet Cookies. Dies sind Dateien, durch deren Speicherung
+auf Ihrem PC Google die Daten Ihrer Benutzung unserer Website analysieren kann.
+Zudem werden bei Google AdSense zusätzlich Web Beacons verwendet, nicht
+sichtbare Grafiken, die es Google ermöglichen, Klicks auf dieser Website, den
+Verkehr auf dieser und ähnliche Informationen zu analysieren.
+
+Weitere Informationen zu Zweck und Umfang der Datenerhebung und ihrer
+Verarbeitung durch Google erhalten Sie in der [Datenschutzerklärung des
+Anbieters](https://policies.google.com/privacy) und unter
+<https://support.google.com/adsense/answer/7549925>. Dort erhalten Sie auch
+weitere Informationen zu Ihren diesbezüglichen Rechten und
+Einstellungsmöglichkeiten zum Schutze Ihrer Privatsphäre.
 
 **Rechtsgrundlage:**
 
-Die Verarbeitung der als Kommentar eingegebenen Daten erfolgt auf der Grundlage
-eines berechtigten Interesses (Art. 6 Abs. 1 lit. f DSGVO).
-
-Durch Bereitstellung der Kommentarfunktion möchten wir Ihnen eine
-unkomplizierte Interaktion ermöglichen. Ihre gemachten Angaben werden zum
-Zwecke der Bearbeitung der Anfrage sowie für mögliche Anschlussfragen
-gespeichert.
-
-**Empfänger:**
-
-Empfänger der Daten sind ggf. Auftragsverarbeiter.
-
-**Speicherdauer:**
-
-Die Daten werden gelöscht, sobald diese für den Zweck der Erhebung nicht mehr
-erforderlich sind. Dies ist grundsätzlich der Fall, wenn die Kommunikation mit
-dem Nutzer abgeschlossen ist und das Unternehmen den Umständen entnehmen kann,
-dass der betroffene Sachverhalt abschließend geklärt ist.
-
-**Bereitstellung vorgeschrieben oder erforderlich:**
-
-Die Bereitstellung Ihrer personenbezogenen Daten erfolgt freiwillig. Ohne die
-Bereitstellung Ihrer personenbezogenen Daten können wir Ihnen keinen Zugang zu
-unserer Kommentarfunktion gewähren.
-
-## Verwendung von Scriptbibliotheken (Google Webfonts)
-
-**Art und Zweck der Verarbeitung:**
-
-Um unsere Inhalte browserübergreifend korrekt und grafisch ansprechend
-darzustellen, verwenden wir auf dieser Website <q>Google Web Fonts</q> der
-Google LLC (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA;
-nachfolgend <q>Google</q>) zur Darstellung von Schriften.
-
-Die Datenschutzrichtlinie des Bibliothekbetreibers Google finden Sie hier:
-[Datenschutzerklärung des Anbieters]
-
-
-**Rechtsgrundlage:**
-
-Rechtsgrundlage für die Einbindung von Google Webfonts und dem damit
+Rechtsgrundlage für die Einbindung von Google Adsense und dem damit
 verbundenen Datentransfer zu Google ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a
 DSGVO).
 
+Durch die Nutzung dieser Website willigen Sie in die Bearbeitung der zu Ihrer
+Person erhobenen Daten durch Google in der zuvor beschriebenen Art und Weise
+und zu dem zuvor benannten Zweck ein.
+
 **Empfänger:**
 
-Der Aufruf von Scriptbibliotheken oder Schriftbibliotheken löst automatisch
-eine Verbindung zum Betreiber der Bibliothek aus. Dabei ist es theoretisch
-möglich – aktuell allerdings auch unklar ob und ggf. zu welchen Zwecken – dass
-der Betreiber in diesem Fall Google Daten erhebt.
+Die über Cookies, Web Beacons, Impressionen, Klicks und Aktivitäten erhaltenen
+Informationen, Ihre IP-Adresse sowie die Auslieferung und Verwendung von
+Werbeformaten werden an einen Server von Google mit Standort in den USA
+übermittelt und dort gespeichert ([Datenschutzerklärung des Anbieters]). Google
+wird diese gesammelten Informationen möglicherweise an Dritte weitergeben, wenn
+dies gesetzlich erforderlich ist oder Google gegenüber Dritten die
+Datenverarbeitung in Auftrag gibt. Allerdings wird Google Ihre IP-Adresse
+zusammen mit den anderen gespeicherten Daten zusammenführen.
 
-**Speicherdauer:**
+Durch Klicken auf die Werbung können Sie außerdem auf eine externe Seite
+weitergeleitet werden, wo ggf. Daten entsprechend der dort geltenden
+Datenschutzbestimmungen erhoben werden.
 
-Wir erheben keine personenbezogenen Daten, durch die Einbindung von Google Webfonts.
+**Speicherdauer und Widerruf der Einwilligung:**
 
-Weitere Informationen zu Google Web Fonts finden Sie unter
-<https://developers.google.com/fonts/faq> und in der Datenschutzerklärung von
-Google: <https://www.google.com/policies/privacy/>.
+Wir erheben keine personenbezogenen Daten, durch die Einbindung von Google
+Adsense.
+
+Wenn Sie nicht möchten, dass Google über unseren Internetauftritt Daten über
+Sie erhebt, verarbeitet oder nutzt, können Sie in Ihrem Browsereinstellungen
+JavaScript deaktivieren. In diesem Fall können Sie unsere Webseite jedoch nicht
+oder nur eingeschränkt nutzen. Durch entsprechende Einstellungen an Ihrem
+Internetbrowser können Sie verhindern, dass die genannten Cookies auf Ihrem PC
+gespeichert werden. Auf die Inhalte dieser Website hat dies keine Auswirkungen.
+Sie bekommen möglicherweise keine oder weniger spezifische Werbung angezeigt.
+Weiterhin können Sie die Präferenzen für personalisierte Werbung beim
+[Anbieter](https://www.google.com/settings/ads) einstellen.
+
+Weitere Einstellmöglichkeiten finden Sie unter
+<https://policies.google.com/privacy>.
+
+Ausführliche Anleitungen zur Verwaltung der eigenen Daten im Zusammenhang mit
+Google-Produkten [finden Sie hier](http://www.dataliberation.org/).
 
 **Drittlandtransfer:**
 
@@ -156,17 +156,9 @@ unterworfen.
 
 **Bereitstellung vorgeschrieben oder erforderlich:**
 
-Die Bereitstellung der personenbezogenen Daten ist weder gesetzlich, noch
-vertraglich vorgeschrieben. Allerdings kann ggfs. die korrekte Darstellung der
-Inhalte durch Standardschriften nicht möglich sein.
-
-**Widerruf der Einwilligung:**
-
-Zur Darstellung der Inhalte wird regelmäßig die Programmiersprache JavaScript
-verwendet. Sie können der Datenverarbeitung daher widersprechen, indem Sie die
-Ausführung von JavaScript in Ihrem Browser deaktivieren oder einen
-JavaScript-Blocker installieren. Bitte beachten Sie, dass es hierdurch zu
-Funktionseinschränkungen auf der Website kommen kann.
+Die Bereitstellung Ihrer personenbezogenen Daten erfolgt freiwillig, allein auf
+Basis Ihrer Einwilligung. Sofern Sie den Zugriff unterbinden, kann es abhängig
+vom gewählten Verfahren zu Funktionseinschränkungen auf der Website kommen.
 
 ## Verwendung von Google Maps
 
@@ -179,17 +171,18 @@ Karten direkt in der Webseite anzeigen und ermöglichen Ihnen die komfortable
 Nutzung der Karten-Funktion.
 
 Nähere Informationen über die Datenverarbeitung durch Google können Sie [den
-Google-Datenschutzhinweisen][Datenschutzerklärung des Anbieters] entnehmen.
+Google-Datenschutzhinweisen](https://policies.google.com/privacy) entnehmen.
 Dort können Sie im Datenschutzcenter auch Ihre persönlichen
 Datenschutz-Einstellungen verändern.
-
-Ausführliche Anleitungen zur Verwaltung der eigenen Daten im Zusammenhang mit
-Google-Produkten [finden Sie hier](http://www.dataliberation.org/).
 
 **Rechtsgrundlage:**
 
 Rechtsgrundlage für die Einbindung von Google Maps und dem damit verbundenen
 Datentransfer zu Google ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).
+
+Durch die Nutzung dieser Website willigen Sie in die Bearbeitung der zu Ihrer
+Person erhobenen Daten durch Google in der zuvor beschriebenen Art und Weise
+und zu dem zuvor benannten Zweck ein.
 
 **Empfänger:**
 
@@ -209,22 +202,26 @@ Aktivitäten auf unserer Webseite zu informieren. Ihnen steht ein
 Widerspruchsrecht zu gegen die Bildung dieser Nutzerprofile, wobei Sie sich zur
 Ausübung dessen an Google richten müssen.
 
-**Speicherdauer:**
+**Speicherdauer und Widerruf der Einwilligung:**
 
 Wir erheben keine personenbezogenen Daten, durch die Einbindung von Google
 Maps.
-
-**Drittlandtransfer:**
-
-Google verarbeitet Ihre Daten in den USA und hat sich dem [EU_US Privacy Shield]
-unterworfen.
-
-**Widerruf der Einwilligung:**
 
 Wenn Sie nicht möchten, dass Google über unseren Internetauftritt Daten über
 Sie erhebt, verarbeitet oder nutzt, können Sie in Ihrem Browsereinstellungen
 JavaScript deaktivieren. In diesem Fall können Sie unsere Webseite jedoch nicht
 oder nur eingeschränkt nutzen.
+
+Weitere Einstellmöglichkeiten finden Sie unter
+<https://policies.google.com/privacy>.
+
+Ausführliche Anleitungen zur Verwaltung der eigenen Daten im Zusammenhang mit
+Google-Produkten [finden Sie hier](http://www.dataliberation.org/).
+
+**Drittlandtransfer:**
+
+Google verarbeitet Ihre Daten in den USA und hat sich dem [EU_US Privacy Shield]
+unterworfen.
 
 **Bereitstellung vorgeschrieben oder erforderlich:**
 
@@ -240,31 +237,38 @@ Auf einigen unserer Webseiten betten wir YouTube-Videos ein. Betreiber der
 entsprechenden Plugins ist die YouTube, LLC, 901 Cherry Ave., San Bruno, CA
 94066, USA (nachfolgend <q>YouTube</q>). Wenn Sie eine Seite mit dem
 YouTube-Plugin besuchen, wird eine Verbindung zu Servern von YouTube
-hergestellt. Dabei wird YouTube mitgeteilt, welche Seiten Sie besuchen. Wenn
-Sie in Ihrem YouTube-Account eingeloggt sind, kann YouTube Ihr Surfverhalten
-Ihnen persönlich zuzuordnen. Dies verhindern Sie, indem Sie sich vorher aus
-Ihrem YouTube-Account ausloggen.
+hergestellt.
 
 Wird ein YouTube-Video gestartet, setzt der Anbieter Cookies ein, die Hinweise
 über das Nutzerverhalten sammeln.
 
 Weitere Informationen zu Zweck und Umfang der Datenerhebung und ihrer
-Verarbeitung durch YouTube erhalten Sie in den Datenschutzerklärungen des
-Anbieters, Dort erhalten Sie auch weitere Informationen zu Ihren
-diesbezüglichen Rechten und Einstellungsmöglichkeiten zum Schutze Ihrer
-Privatsphäre ([Datenschutzerklärung des Anbieters]). Google verarbeitet Ihre
-Daten in den USA und hat sich dem [EU_US Privacy Shield] unterworfen.
+Verarbeitung durch YouTube erhalten Sie in der [Datenschutzerklärung des
+Anbieters](https://support.google.com/youtube/answer/7671399?p=privacy_guidelines)
+and [von Google](https://policies.google.com/privacy).  Dort erhalten Sie
+auch weitere Informationen zu Ihren diesbezüglichen Rechten und
+Einstellungsmöglichkeiten zum Schutze Ihrer Privatsphäre.
 
 **Rechtsgrundlage:**
 
 Rechtsgrundlage für die Einbindung von YouTube und dem damit verbundenen
 Datentransfer zu Google ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).
 
+Durch die Nutzung dieser Website willigen Sie in die Bearbeitung der zu Ihrer
+Person erhobenen Daten durch Google in der zuvor beschriebenen Art und Weise
+und zu dem zuvor benannten Zweck ein.
+
 **Empfänger:**
 
-Der Aufruf von YouTube löst automatisch eine Verbindung zu Google aus.
+Der Aufruf von YouTube löst automatisch eine Verbindung zu Youtube aus. Dabei
+wird dem Anbieter mitgeteilt, welche Seiten Sie besuchen. Wenn Sie in Ihrem
+YouTube-Account eingeloggt sind, kann YouTube Ihr Surfverhalten Ihnen
+persönlich zuzuordnen. Dies verhindern Sie, indem Sie sich vorher aus Ihrem
+YouTube-Account ausloggen.
 
 **Speicherdauer und Widerruf der Einwilligung:**
+
+Wir erheben keine personenbezogenen Dateni durch die Einbindung von Youtube.
 
 Wer das Speichern von Cookies für das Google-Ad-Programm deaktiviert hat, wird
 auch beim Anschauen von YouTube-Videos mit keinen solchen Cookies rechnen
@@ -272,8 +276,11 @@ müssen. YouTube legt aber auch in anderen Cookies nicht-personenbezogene
 Nutzungsinformationen ab. Möchten Sie dies verhindern, so müssen Sie das
 Speichern von Cookies im Browser blockieren.
 
-Weitere Informationen zum Datenschutz bei <q>YouTube</q> finden Sie in der
-[Datenschutzerklärung des Anbieters].
+Weitere Einstellmöglichkeiten finden Sie unter
+<https://policies.google.com/privacy>.
+
+Ausführliche Anleitungen zur Verwaltung der eigenen Daten im Zusammenhang mit
+Google-Produkten [finden Sie hier](http://www.dataliberation.org/).
 
 **Drittlandtransfer:**
 
@@ -302,7 +309,8 @@ Datenschutzerklärung.
 
 ## Fragen an den Datenschutzbeauftragten
 
-Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder
+Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine
+[E-Mail](mailto:webmaster@wgdd.de) oder
 wenden Sie sich direkt an die für den Datenschutz verantwortliche Person in
 unserer Organisation:
 
