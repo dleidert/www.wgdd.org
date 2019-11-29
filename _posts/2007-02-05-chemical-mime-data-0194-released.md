@@ -1,6 +1,6 @@
 ---
 lang: en
-title: `chemical-mime-data` 0.1.94 released
+title: chemical-mime-data 0.1.94 released
 date: '2007-02-05T02:00:00.000+01:00'
 category:
   - software
