@@ -2,13 +2,6 @@ main:
   - title: "Blog"
     url: /blog/
     description: "Das Blog"
-  - title: "Posts"
-    url: /posts/
-    description: "Alle Posts sortiert pro Jahr"
-#  - title: "Categories"
-#    url: /categories/
-#  - title: "Tags"
-#    url: /tags/
   - title: "Debian"
     url: /debian/
   - title: "Impressum"
@@ -35,5 +28,19 @@ about:
     url: /legal/
   - title: "Datenschutz"
     url: /privacy/
+
+blog:
+  - title: "Blog"
+    url: /blog/
+    description: "Blog"
+  - title: "Jahr"
+    url: /posts/
+    description: "Beiträge nach Jahr sortiert"
+  - title: "Kategorie"
+    url: /categories/
+    description: "Beiträge nach Kategorie sortiert"
+  - title: "Tag"
+    url: /tags/
+    description: "Beiträge nach Tag sortiert"
 
 # vim: set tw=79 ts=2 sw=2 ai si et:
