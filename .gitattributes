@@ -3,6 +3,7 @@
 *.xml  linguist-detectable=true
 *.yml  linguist-detectable=true
 tools/*.wgdd.de.xml linguist-generated=true
+_data/ui-text.yml   linguist-generated=true
 
 .gitattributes	export-ignore
 .gitignore	export-ignore
