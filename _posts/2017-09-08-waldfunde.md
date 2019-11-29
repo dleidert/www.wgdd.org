@@ -2,12 +2,11 @@
 lang: de
 title: Waldfunde
 category:
-- waldfunde
+  - waldfunde
 tags:
-- pics
-- wildbienen
-- heide
-- waldfunde
+  - pics
+  - wildbienen
+  - heide
 redirect_from:
 - /2017/09/waldfunde.html
 gallery:
