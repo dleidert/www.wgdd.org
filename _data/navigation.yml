@@ -4,10 +4,10 @@ main:
     description: "Das Blog"
   - title: "Debian"
     url: /debian/
-  - title: "Impressum"
-    url: /legal/
-  - title: "Datenschutz"
-    url: /privacy/
+  - title: "Fotografie"
+    url: /photography/
+  - title: "Privat"
+    url: /private/
 
 debian:
   - title: "Debian"

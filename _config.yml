@@ -33,15 +33,27 @@ author:
   uri: "https://www.wgdd.de"
   xing: "Daniel_Leidert"
   youtube: "https://www.youtube.com/channel/UCcByb2fCTx7B8QwZBdGxDgA"
+  links:
+    - label: "Patreon"
+      icon: "fab fa-fw fa-patreon"
+      url: "https://www.patreon.com/join/dleidert"
+#    - label: "Paypal"
+#      icon: "fab fa-fw fa-paypal"
+#      url: "https://www.paypal.me/dleidert"
+#      description: "Donate"
 
 footer:
   links:
-    - label: "GitHub"
+    - label: "Quellcode"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/dleidert"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/daniel.leidert"
+      url: "https://github.com/dleidert/www.wgdd.de"
+    - label: "Kontakt"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:webmaster@wgdd.de"
+    - label: "Impressum"
+      url: /legal/
+    - label: "Datenschutz"
+      url: /privacy/
 
 collections:
   debian:
