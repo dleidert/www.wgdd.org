@@ -30,9 +30,9 @@ z. B. an die zuständige Aufsichtsbehörde des Bundeslands Ihres Wohnsitzes oder
 an die für uns als verantwortliche Stelle zuständige Behörde.
 
 Eine Liste der Aufsichtsbehörden (für den nichtöffentlichen Bereich) mit
-Anschrift finden Sie unter: [bfdi]{: target="\_blank" rel="nofollow noopener"}.
-
-[bfdi]: https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html
+Anschrift finden Sie unter:
+<https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html>{:
+target="\_blank" rel="nofollow noopener"}.
 
 ## Erfassung allgemeiner Informationen beim Besuch unserer Website
 
