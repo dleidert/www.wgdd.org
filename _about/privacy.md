@@ -4,7 +4,7 @@ toc: true
 toc_sticky: true
 ---
 
-Stand: {{ page.date  |  | date: "%d.%m.%Y" }}
+Stand: {{ page.date  | date: "%d.%m.%Y" }}
 
 Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der
 EU-Datenschutzgrundverordnung (DSGVO), ist der [Betreiber] der Website.
