@@ -9,6 +9,8 @@ tags:
   - english
   - debian
   - packaging
+  - quilt
+  - svn-buildpackage
 redirect_from:
 - /2007/11/svn-buildpackage-debian-only-and-dpatch.html
 ---
