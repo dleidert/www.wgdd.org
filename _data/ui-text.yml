@@ -494,7 +494,7 @@ de: &DEFAULT_DE
   comments_title             : "Kommentare"
   more_label                 : "Mehr anzeigen"
   related_label              : "Ihnen gefällt vielleicht auch"
-  follow_label               : "Folgen:"
+#  follow_label               : "Folgen"
   feed_label                 : "Feed"
   powered_by                 : "Möglich durch"
   website_label              : "Webseite"
