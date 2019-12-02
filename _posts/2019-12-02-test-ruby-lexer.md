@@ -21,6 +21,32 @@ bar
 $ bla
 > bli
 ## blu
+% foobar
+| loo
+```
+
+* using `console?prompt=#`
+
+```console?prompt=#
+# foo
+bar
+$ bla
+> bli
+## blu
+% foobar
+| loo
+```
+
+* using `console?prompt=%,#,$,>,|`
+
+```console?prompt=%,#,$,>,|
+# foo
+bar
+$ bla
+> bli
+## blu
+% foobar
+| loo
 ```
 
 * using `console?comments`
@@ -57,13 +83,5 @@ bar
 # foo
 bar
 ```
-
-* using `console?prompt=#`
-
-```console?prompt=#
-# foo
-bar
-```
-
 
 <!-- # vim: set tw=79 ts=2 sw=2 ai si et: -->
