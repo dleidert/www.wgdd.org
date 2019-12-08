@@ -42,7 +42,7 @@ footer:
   links:
     - label: "Source"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/dleidert/www.wgdd.de"
+      url: "https://github.com/dleidert/www.wgdd.org"
     - label: "Contact"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:webmaster@wgdd.de"
