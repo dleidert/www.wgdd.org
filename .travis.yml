@@ -52,7 +52,7 @@ deploy:
   skip_cleanup: true
   script:
   #- ssh -vvv -i "$DEPLOY_SSH_KEY" -p "$DEPLOY_SSH_PORT" "$DEPLOY_SSH_USER"@"$DEPLOY_SSH_HOST"
-  - rsync -avzcP --exclude=tools/ --exclude=README.md --delete-after --delete-excluded -e "ssh -o StrictHostKeyChecking=no -i $DEPLOY_SSH_KEY -p $DEPLOY_SSH_PORT" "$TRAVIS_BUILD_DIR/_site" "$DEPLOY_SSH_USER"@"$DEPLOY_SSH_HOST":"$DEPLOY_SSH_PATH"/
+  - rsync -avzcPvvv --exclude=tools/ --exclude=README.md --delete-after --delete-excluded -e "ssh -vvv -o StrictHostKeyChecking=no -i $DEPLOY_SSH_KEY -p $DEPLOY_SSH_PORT" "$TRAVIS_BUILD_DIR/_site" "$DEPLOY_SSH_USER"@"$DEPLOY_SSH_HOST":"$DEPLOY_SSH_PATH"/
   on:
     branch: master
     rvm: 2.5
