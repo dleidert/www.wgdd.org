@@ -1,13 +1,9 @@
 main:
   - title: "Blog"
     url: /blog/
-    description: "Das Blog"
+    description: "Post Lists"
   - title: "Debian"
     url: /debian/
-  - title: "Fotografie"
-    url: /photography/
-  - title: "Privat"
-    url: /private/
 
 debian:
   - title: "Debian"
@@ -24,23 +20,23 @@ debian:
     description: "Check out all Posts regarding Debian"
 
 about:
-  - title: "Impressum"
+  - title: "Legal"
     url: /legal/
-  - title: "Datenschutz"
+  - title: "Privacy"
     url: /privacy/
 
 blog:
   - title: "Blog"
     url: /blog/
     description: "Blog"
-  - title: "Jahr"
+  - title: "Year"
     url: /posts/
-    description: "Beiträge nach Jahr sortiert"
-  - title: "Kategorie"
+    description: "Posts sorted by year"
+  - title: "Category"
     url: /categories/
-    description: "Beiträge nach Kategorie sortiert"
+    description: "Posts sorted by category"
   - title: "Tag"
     url: /tags/
-    description: "Beiträge nach Tag sortiert"
+    description: "Posts sorted by tag"
 
 # vim: set tw=79 ts=2 sw=2 ai si et:

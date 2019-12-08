@@ -1,13 +1,11 @@
-title: "[erfahrungen, meinungen, halluzinationen]"
+title: "[experiences, opinions, hallucinations]"
 email: webmaster@wgdd.de
 description: >-
-  
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-locale: "de"
+locale: "en"
 github_username: dleidert
-minimal_mistakes_skin: default
 search: true
 
 # Build settings
@@ -27,7 +25,7 @@ author:
   name: "Daniel Leidert"
   location: "Dresden, GER"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "Chemiker, Programmierer, Debian-Entwickler, Hobby-Fotograf und tätig im Bereich Umweltschutz"
+  bio: "Chemist, Programmer, Debian Developer, Photographer, Environmental Scientist"
   email: "daniel@wgdd.de"
   github: "dleidert"
   instagram: "daniel.leidert"
@@ -42,18 +40,18 @@ author:
 
 footer:
   links:
-    - label: "Quellcode"
+    - label: "Source"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dleidert/www.wgdd.de"
-    - label: "Kontakt"
+    - label: "Contact"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:webmaster@wgdd.de"
     - label: "Patreon"
       icon: "fab fa-fw fa-patreon"
       url: "https://www.patreon.com/join/dleidert"
-    - label: "Impressum"
+    - label: "Legal"
       url: /legal/
-    - label: "Datenschutz"
+    - label: "Privacy"
       url: /privacy/
 
 collections:
@@ -64,13 +62,6 @@ collections:
       - debian.md
       - packages.md
     lang: "en"
-  photography:
-    output: true
-    permalink: /:collection/:path/
-    order:
-      - nature.md
-      - portrait.md
-      - macro.md
   about:
     output: true
     permalink: /:path/
@@ -105,7 +96,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      lang: "en"
       sidebar:
         nav: "debian"
   # _about
@@ -118,12 +108,6 @@ defaults:
       sidebar:
         nav: "about"
   # other collections
-  - scope:
-      path: ""
-      type: photography
-    values:
-      layout: single
-      author_profile: true
 
 category_archive:
   type: liquid
