@@ -48,7 +48,7 @@ footer:
       url: "mailto:webmaster@wgdd.de"
     - label: "Patreon"
       icon: "fab fa-fw fa-patreon"
-      url: "https://www.patreon.com/join/dleidert"
+      url: "https://www.patreon.com/dleidert"
     - label: "Legal"
       url: /legal/
     - label: "Privacy"
