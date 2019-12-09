@@ -79,7 +79,7 @@ something for [debichems] TODO list.
 [`gnome-chemistry-utils`]: {% include pkg name="src:gnome-chemistry-utils" %}
 [`libgcu0`]: {% include pkg name="libgcu0" %}
 [`libtool`]: {% include pkg name="libtool" %}
-[`#347650`]: {% include bug is="347650" %}
+[`#347650`]: {% include bts bug="347650" %}
 [`gcu-plugin`]: {% include pkg name="gcu-plugin" %}
 [`bluefish`]: {% include pkg name="bluefish" %}
 [debichem]: http://debichem.alioth.debian.org/
