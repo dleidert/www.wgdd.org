@@ -4,55 +4,55 @@ toc: true
 toc_sticky: true
 ---
 
-## Angaben gemäß § 5 TMG:
+## Information according to § 5 TMG:
 
-### Verantwortlicher
+### Responsible Person
 
 ```
 Daniel Leidert
 ```
 
-### Postanschrift
+### Postal Address
 
 ```
 Nordstraße 2
 01099 Dresden
+Germany
 ```
 
-### Kontakt
+### Contact Information
 
 ```
 E-Mail: webmaster@wgdd.de
 ```
 
-## Hinweise zur Website
+## Information about the Website
 
-Diese Website wurde mit [Jekyll], dem [Minimal Mistakes] Thema, [GitHub] und 
-[Travis CI] erstellt. 
+This website is built with the support of [Jekyll], the [Minimal Mistakes]
+theme, [GitHub] and [Travis CI]. 
 
 [Jekyll]: https://jekyllrb.com/
 [Minimal Mistakes]: https://mmistakes.github.io/minimal-mistakes/
 [GitHub]: https://github.com/dleidert/www.wgdd.de
 [Travis CI]: https://travis-ci.org/
 
-### Urheberrechtliche Hinweise
+### Copyright Note
 
 ```
 Daniel Leidert
 Nordstraße 2
 01099 Dresden
+Germany
 ```
 
-### Lizenzrechtliche Hinweise
+### License Information
 
-Die Inhalte werden unter der [Creative Commons Attribution-NonCommercial 3.0
-Germany Lizenz][lizenz] bereitgestellt:
+Contents are provided under the terms of the [Creative Commons
+Attribution-NonCommercial 3.0 Germany Licence][license].
 
-[lizenz]: https://creativecommons.org/licenses/by-nc/3.0/de/deed.de
+[license]: https://creativecommons.org/licenses/by-nc/3.0/de/deed.en
 
-_Das Impressum wurde mit dem [Impressums-Generator der activeMind AG]
-erstellt._
-
-[Impressums-Generator der activeMind AG]: https://www.activemind.de/datenschutz/impressums-generator/
+*[TMG]: Telemediengesetz
+*[CI]: Continuous Integration
 
 <!-- vim: set tw=79 ts=2 sw=2 ai si et: -->
