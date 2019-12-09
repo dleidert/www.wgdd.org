@@ -6,6 +6,8 @@ main:
     url: /debian/
   - title: "Projects"
     url: /projects/
+  - title: "About"
+    url: /about/
 
 
 debian:
