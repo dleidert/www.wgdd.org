@@ -36,6 +36,7 @@ script:
 after_success:
 # https://github.com/gjtorikian/html-proofer/wiki/Using-HTMLProofer-From-Ruby-and-Travis
 - bundle exec htmlproofer ./_site --check-external-hash --check-opengraph --check-sri --check-html --http-status-ignore 999 --check-img-http --timeframe 4w || true
+- ls "$TRAVIS_BUILD_DIR/tmp/.htmlproofer" || true
 
 after_script:
 - find ./_site -type f
