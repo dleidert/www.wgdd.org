@@ -61,7 +61,14 @@ collections:
     order:
       - debian.md
       - packages.md
-    lang: "en"
+  projects:
+    output: true
+    permalink: /:collection/:path/
+    order:
+      - bluefish.md
+      - docbook.md
+      - gnupg.md
+      - bdelock.md
   about:
     output: true
     permalink: /:path/
@@ -98,6 +105,13 @@ defaults:
       author_profile: true
       sidebar:
         nav: "debian"
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
   # _about
   - scope:
       path: ""

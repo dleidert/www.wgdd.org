@@ -4,6 +4,9 @@ main:
     description: "Post Lists"
   - title: "Debian"
     url: /debian/
+  - title: "Projects"
+    url: /projects/
+
 
 debian:
   - title: "Debian"
