@@ -1,1 +1,5 @@
-https://packages.debian.org/{{ include.name }}
+{% if include.qa -%}
+https://packages.debian.org/{{- include.name -}}
+{%- else -%}
+https://packages.debian.org/{%- if include.src -%}src:{%- endif -%}{{- include.name -}}
+{%- endif %}
