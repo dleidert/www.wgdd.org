@@ -13,7 +13,7 @@ search: true
 markdown: kramdown
 lsi: true
 incremental: true
-remote_theme: mmistakes/minimal-mistakes@4.17.2
+remote_theme: mmistakes/minimal-mistakes@4.20.2
 minimal_mistakes_skin: "neon"
 # Outputting
 permalink: /:year/:month/:title/
