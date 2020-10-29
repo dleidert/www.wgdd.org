@@ -11,6 +11,8 @@ search: true
 
 # Build settings
 markdown: kramdown
+lsi: true
+incremental: true
 remote_theme: mmistakes/minimal-mistakes@4.17.2
 minimal_mistakes_skin: "neon"
 # Outputting
@@ -90,6 +92,7 @@ defaults:
       comments: true
       share: true
       related: true
+      lang: "en"
   # _pages
   - scope:
       path: "_pages"
@@ -123,6 +126,27 @@ defaults:
       sidebar:
         nav: "about"
   # other collections
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
+
+jekyll_compose:
+  auto_open: true
+  default_front_matter:
+    posts:
+      layout:
+      description: >
+
+      category:
+      - 
+      - 
+      tags:
+      - 
+      - 
+      published: false
+      redirect_from:
 
 category_archive:
   type: liquid
@@ -137,6 +161,7 @@ feed:
     - planet-debian
 
 plugins:
+  - jekyll-compose
 #  - jekyll-data
   - jekyll-feed
   - jekyll-gist
