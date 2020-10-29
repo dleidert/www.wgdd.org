@@ -25,10 +25,11 @@ addons:
     packages:
     - libcurl4-openssl-dev # resolve SSL issue of htmlproofer
     - locales-all
+    - libgsl-dev # gsl gem
 
 rvm:
 - 2.5
-- 2.6
+- 2.7
 
 script:
 - bundle exec jekyll build --trace
@@ -39,7 +40,7 @@ after_success:
 - find ./_site -type f
 
 before_deploy:
-- ssh-keyscan -t $TRAVIS_SSH_KEY_TYPES -p "DEPLOY_SSH_PORT" -H "$DEPLOY_SSH_HOST" 2>&1 | tee -a ${TRAVIS_HOME}/.ssh/known_hosts
+- ssh-keyscan -t rsa -p "$DEPLOY_SSH_PORT" -H "$DEPLOY_SSH_HOST" 2>&1 | tee -a ${TRAVIS_HOME}/.ssh/known_hosts
 - openssl aes-256-cbc -K $encrypted_9bf2067e671e_key -iv $encrypted_9bf2067e671e_iv -in tools/deploy_rsa.enc -out "$DEPLOY_SSH_KEY" -d
 - eval "$(ssh-agent -s)"
 - chmod 600 "$DEPLOY_SSH_KEY"
@@ -53,6 +54,6 @@ deploy:
   - rsync -avzcP --exclude=tools/ --exclude=README.md --delete-after --delete-excluded -e "ssh -o StrictHostKeyChecking=no -i $DEPLOY_SSH_KEY -p $DEPLOY_SSH_PORT" "$TRAVIS_BUILD_DIR/_site" "$DEPLOY_SSH_USER"@"$DEPLOY_SSH_HOST":"$DEPLOY_SSH_PATH"/
   on:
     branch: master
-    rvm: 2.5
+    rvm: 2.7
 
 # vim: set ts=2 sw=2 ai si et:
