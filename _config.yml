@@ -35,7 +35,11 @@ author:
 #  uri: "https://www.wgdd.de"
   xing: "Daniel_Leidert"
   youtube: "https://www.youtube.com/channel/UCcByb2fCTx7B8QwZBdGxDgA"
-#  links:
+  links:
+  - label: "Fiverr"
+    #icon: "fab fa-fw fa-paypal"
+    url: "https://www.fiverr.com/dleidert"
+    description: "Hire me on Fiverr"
 #    - label: "Paypal"
 #      icon: "fab fa-fw fa-paypal"
 #      url: "https://www.paypal.me/dleidert"
