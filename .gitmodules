@@ -1,4 +1,0 @@
-[submodule "assets/images"]
-	path = assets/images
-	url = https://github.com/dleidert/media.wgdd.de
-	branch = master
