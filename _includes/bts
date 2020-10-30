@@ -1,7 +1,7 @@
 {%- if include.pkg -%} 
-https://bugs.debian.org/{{- include.pkg -}}
+https://bugs.debian.org/{{- include.pkg }}
 {%- elsif include.src -%} 
-https://bugs.debian.org/src:{{- include.src -}}
+https://bugs.debian.org/src:{{- include.src }}
 {%- else -%}
-https://bugs.debian.org/{{- include.bug -}}
+https://bugs.debian.org/{{- include.bug }} "Debian bug #{{- include.bug -}}"
 {%- endif -%}
