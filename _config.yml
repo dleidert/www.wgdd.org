@@ -21,6 +21,9 @@ paginate: 10 # amount of posts to show
 paginate_path: /blog/page:num/
 timezone: Europe/Berlin
 
+# Server
+port: 4001
+
 include:
   - _pages
 
