@@ -1,9 +1,11 @@
 ---
-layout: splash
-classes: wide
-permalink: /
-header:
 title: Welcome
+layout: splash
+permalink: /
+classes: wide
+header:
+  overlay_color: "#cccccc"
+  overlay_filter: "0.5"
 excerpt: >
   ... to my site about Debian GNU/Linux and free software.
 intro: 
