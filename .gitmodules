@@ -1,0 +1,4 @@
+[submodule "assets/images"]
+	path = assets/images
+	url = git@github.com:dleidert/media.wgdd.org.git
+	branch = master
