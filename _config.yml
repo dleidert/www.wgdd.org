@@ -26,6 +26,7 @@ port: 4001
 
 include:
   - _pages
+  - LICENSE
 
 author:
   name: "Daniel Leidert"
