@@ -28,7 +28,6 @@ addons:
     - libgsl-dev # gsl gem
 
 rvm:
-- 2.5
 - 2.7
 
 script:
