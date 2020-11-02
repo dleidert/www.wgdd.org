@@ -1,4 +1,5 @@
 ---
+vim: tw=79:ts=2:sw=2:ai:si:et
 title: Fix travis-ci.org not caching htmlproofer
 description: >-
   Tests run in the after_success target of a TRAVIS CI job cannot add cached
@@ -37,5 +38,3 @@ So to add and upload HTMLProofer's cache I moved the site test into the
 
 [original design]: https://github.com/dleidert/www.wgdd.org/blob/01bed8bfd7181b4b907d01f450ded471eb10e742/.travis.yml#L33-L38
 [in the docs]: https://docs.travis-ci.com/user/job-lifecycle/#the-job-lifecycle
-
-# vim: set tw=79 ts=2 sw=2 ai si et:
