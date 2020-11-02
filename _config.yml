@@ -145,6 +145,7 @@ jekyll_compose:
   auto_open: true
   default_front_matter:
     posts:
+      vim: tw=79:ts=2:sw=2:ai:si:et
       layout:
       description: >
 
