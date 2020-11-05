@@ -41,7 +41,7 @@ author:
 #  youtube: "https://www.youtube.com/channel/UCcByb2fCTx7B8QwZBdGxDgA"
   links:
   - label: "Fiverr"
-    #icon: "fab fa-fw fa-paypal"
+    icon: "fab fa-fw fa-fonticons-fi"
     url: "https://www.fiverr.com/dleidert"
     description: "Hire me on Fiverr"
 #    - label: "Paypal"
