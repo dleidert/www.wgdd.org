@@ -26,6 +26,7 @@ addons:
     - libcurl4-openssl-dev # resolve SSL issue of htmlproofer
     - locales-all
     - libgsl-dev # gsl gem
+    - rsync
 
 rvm:
 - 2.7
